@@ -6,7 +6,7 @@ export function Burger() {
   return (
     <button className='button burger-button'>
       Меню
-      <img className='picture' src={burger} />
+      <img className='picture picture-burger' src={burger} />
     </button>
   );
 }
