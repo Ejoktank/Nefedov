@@ -1,0 +1,8 @@
+.burger-button > img {
+    height: 14px;
+    transform: translateY(2px);
+}
+
+.burger-button {
+    margin-left: 30px;
+}

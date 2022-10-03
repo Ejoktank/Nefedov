@@ -1,0 +1,17 @@
+.menuList {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.menuListItem {
+    font-size: 18px;
+    padding-left: 30px;
+}
+
+.menuListItem::after {
+    content: '▼';
+    font-size: 8px;
+    padding-left: 8px;
+}

@@ -1,0 +1,14 @@
+.button {
+    display: flex;
+    align-items: center;
+
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+}
+
+.button > img {
+    height: 30px;
+    margin-left: 10px;
+}
