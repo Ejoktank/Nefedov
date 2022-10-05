@@ -1,17 +1,20 @@
 import React from "react";
 import "./herouppercontainer.css";
+import heroImg1 from "../../img/heroImg1.png";
+import heroImg2 from "../../img/heroImg2.png";
+import heroImg3 from "../../img/heroImg3.png";
 
 export function HeroUpperContainer() {
   return (
     <div className="heroUpperContainer">
       <div className="leftContainer">
         <h2 className="upperContainerHeader">
-          From the first presentation to the final understand me or no
+          <span className="formTheFirst">From the first</span> <br />presentation to the final understand me or no
         </h2>
         <div className="heroCardsContainer">
           <div className="card card-1">
             <div className="cardContent">
-              <p className="cardText">Изменение стоимости за месяц:</p>
+              <p className="cardText">Изменение стоимости за последний месяц:</p>
               <div className="lowerCardContainer">
                 Май <span className="cardPrice">65 Р</span>
                 <span className="cardPriseAfter">+5 Р</span>
@@ -19,21 +22,21 @@ export function HeroUpperContainer() {
             </div>
           </div>
           <div className="card card-2">
-            <p className="cardText">Изменение стоимости за месяц:</p>
+            <p className="cardText">Изменение стоимости за последний месяц:</p>
             <div className="lowerCardContainer">
               Май <span className="cardPrice">65 Р</span>
               <span className="cardPriseAfter">+5 Р</span>
             </div>
           </div>
           <div className="card card-3">
-            <p className="cardText">Изменение стоимости за месяц:</p>
+            <p className="cardText">Изменение стоимости за последний месяц:</p>
             <div className="lowerCardContainer">
               Май <span className="cardPrice">65 Р</span>
               <span className="cardPriseAfter">+5 Р</span>
             </div>
           </div>
           <div className="card card-4">
-            <p className="cardText">Изменение стоимости за месяц:</p>
+            <p className="cardText">Изменение стоимости за последний месяц:</p>
             <div className="lowerCardContainer">
               Май <span className="cardPrice">65 Р</span>
               <span className="cardPriseAfter">+5 Р</span>
@@ -64,9 +67,9 @@ export function HeroUpperContainer() {
           </div>
         </div>
         <div className="heroImgComtainer">
-          <div className="heroImg heroImg-1"></div>
-          <div className="heroImg heroImg-2"></div>
-          <div className="heroImg heroImg-3"></div>
+          <img src={heroImg1} className="heroImg heroImg-1"></img>
+          <img src={heroImg2} className="heroImg heroImg-2"></img>
+          <img src={heroImg3} className="heroImg heroImg-3"></img>
         </div>
       </div>
     </div>

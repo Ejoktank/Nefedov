@@ -1,0 +1,102 @@
+.formTheFirst {
+    color: #6666ff;
+}
+
+.upperContainerHeader {
+    width: 500px;
+
+    line-height: 1;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.heroCardsContainer {
+    margin-top: 30px;
+}
+
+.heroIcon-1 {
+    background-image: url('../../img/heroIcon1.svg');
+}
+
+.heroIcon-2 {
+    background-image: url('../../img/heroIcon2.svg');
+}
+
+.heroIcon-3 {
+    background-image: url('../../img/heroIcon3.svg');
+}
+
+.heroIcon-4 {
+    background-image: url('../../img/heroIcon4.svg');
+}
+
+.heroIcon {
+    display: inline-block;
+    margin-right: 5px;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+}
+
+.heroIconContainer {
+    display: flex;
+    align-items: center;
+}
+
+.heroIconsContainer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 380px;
+}
+
+.heroUpperContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.heroCardsContainer,
+.heroImgComtainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.heroImg, 
+.card {
+    width: 180px;
+}
+
+.heroImg:not(:first-child) {
+    margin-left: 10px;
+}
+
+.card {
+    padding: 15px;
+    height: 531px;
+
+    border-radius: 20px;
+    background-color: #dfdfdf;
+    background-repeat: no-repeat;
+    background-position: 100px 0px;
+    background-size: 100px;
+}
+
+.card:not(:first-child) {
+    margin-left: 10px;
+}
+
+.card-1 {
+    background-image: url(../../img/1.png);
+}
+
+.card-2 {
+    background-image: url(../../img/2.png);
+}
+
+.card-3 {
+    background-image: url(../../img/3.png);
+}
+
+.card-4 {
+    background-image: url(../../img/4.png);
+}
