@@ -1,0 +1,85 @@
+.heroLowerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.heroLowerContainerHeader {
+    max-width: 380px;
+    line-height: 1;
+    font-size: 76px;
+}
+
+.textBlue {
+    color: #1b61e1;
+}
+
+.heroLowerContainerText {
+    max-width: 560px;
+    margin-bottom: 20px;
+}
+
+.heroIconsList{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.heroIconsListItem {
+    display: inline-block;
+
+    margin-right: 8px;
+
+    text-align: center;
+    font-weight: 900;
+    font-size: 14px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.heroIconsListItem-1 {
+    background-color: #c3caff;
+}
+
+.heroIconsListItem-2 {
+    background-color: #FEBCB4;
+}
+
+.heroIconsListItem-3 {
+    background-color: #8cd0a2;
+}
+.heroIconsListItem-4 {
+    background-color: #c5c6c6;
+}
+.heroIconsListItem-5 {
+    background-color: #aff315;
+}
+.heroIconsListItem-6 {
+    background-color: #000;
+    color: #fff;
+}
+.heroIconsListItem-7 {
+    background-color: #fe9b90;
+}
+
+.heroLowerRightContainer {
+    min-width: 50%;
+}
+
+.heroLowerContainerSubheader {
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.popularQuestion {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+}
+
+.popQuestPlus {
+    font-weight: 200;
+    font-size: 50px;
+    line-height: 0;
+}

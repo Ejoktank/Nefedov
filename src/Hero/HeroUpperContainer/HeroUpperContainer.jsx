@@ -7,7 +7,7 @@ import heroImg3 from "../../img/heroImg3.png";
 export function HeroUpperContainer() {
   return (
     <div className="heroUpperContainer">
-      <div className="leftContainer">
+      <div className="heroUpperLeftContainer">
         <h2 className="upperContainerHeader">
           <span className="formTheFirst">From the first</span> <br />presentation to the final understand me or no
         </h2>
@@ -44,7 +44,7 @@ export function HeroUpperContainer() {
           </div>
         </div>
       </div>
-      <div className="rightContainer">
+      <div className="heroUpperRightContainer">
         <h3 className="upperContainerSubheader">
           your vision with developers so they can help bring it to life with developers so they can
         </h3>
