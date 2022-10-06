@@ -25,7 +25,7 @@ export function HeroUpperContainer() {
             <p className="cardText">Изменение стоимости за последний месяц:</p>
             <div className="lowerCardContainer">
               Май <span className="cardPrice">65 Р</span>
-              <span className="cardPriseAfter">+5 Р</span>
+              <span className="cardPriseAfter">-5 Р</span>
             </div>
           </div>
           <div className="card card-3">
@@ -39,15 +39,15 @@ export function HeroUpperContainer() {
             <p className="cardText">Изменение стоимости за последний месяц:</p>
             <div className="lowerCardContainer">
               Май <span className="cardPrice">65 Р</span>
-              <span className="cardPriseAfter">+5 Р</span>
+              <span className="cardPriseAfter">-5 Р</span>
             </div>
           </div>
         </div>
       </div>
       <div className="rightContainer">
-        <p className="upperContainerSubheader">
+        <h3 className="upperContainerSubheader">
           your vision with developers so they can help bring it to life with developers so they can
-        </p>
+        </h3>
         <div className="heroIconsContainer">
           <div className="heroIconContainer">
             <span className="heroIcon heroIcon-1"></span>            
