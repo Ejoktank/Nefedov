@@ -6,10 +6,12 @@ import { HeroAdditionalServices } from "./HeroAdditionalServices/HeroAdditionalS
 
 export function Hero() {
   return (
-    <div className="heroContainer">
-      <HeroUpperContainer />
-      <HeroLowerContainer />
-      <HeroAdditionalServices />
-    </div>
+    <section className="heroContainer borad-20">
+      <div className="container">
+        <HeroUpperContainer />
+        <HeroLowerContainer />
+        <HeroAdditionalServices />
+      </div>
+    </section>
   );
 }

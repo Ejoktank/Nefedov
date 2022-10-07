@@ -4,17 +4,3 @@
     flex-wrap: nowrap;
     justify-content: space-between;
 }
-
-.additionalServicesHeader {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 30px 10px;
-    text-transform: uppercase;
-}
-
-.additionalServicesHeader > img {
-    width: 24px;
-    height: 24px;
-    margin-right: 10px;
-}

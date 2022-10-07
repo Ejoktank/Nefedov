@@ -6,7 +6,7 @@ import icon from '../../img/additional.png'
 export function HeroAdditionalServices() {
   return (
     <div className="heroAdditionalServices">
-      <h3 className="additionalServicesHeader">
+      <h3 className="sectionName">
         <img src={icon} /> Дополнительные услуги</h3>
       <div className='additionalServicesContainer'>
       <AdditionalService />
