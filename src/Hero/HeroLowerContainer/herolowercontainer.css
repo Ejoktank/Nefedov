@@ -20,8 +20,7 @@
     margin-bottom: 20px;
 }
 
-.heroIconsList{
-    display: inline-block;
+.heroIconsListItem:first-child {
     margin-left: 30px;
 }
 

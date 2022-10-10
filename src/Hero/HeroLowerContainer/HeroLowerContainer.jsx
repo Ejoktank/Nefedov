@@ -12,22 +12,18 @@ export function HeroLowerContainer() {
           Наша главной задачей является не моментальное извлечение выгоды, а
           предоставление клиенту качественного и уникального продукта в виде
           сайта, брендинга, приложения или др услуг.
-          <ul className="heroIconsList">
-            <li className="heroIconsListItem heroIconsListItem-1">B</li>
-            <li className="heroIconsListItem heroIconsListItem-2">W</li>
-            <li className="heroIconsListItem heroIconsListItem-3">A</li>
-            <li className="heroIconsListItem heroIconsListItem-4">O</li>
-          </ul>
+            <span className="heroIconsListItem heroIconsListItem-1">B</span>
+            <span className="heroIconsListItem heroIconsListItem-2">W</span>
+            <span className="heroIconsListItem heroIconsListItem-3">A</span>
+            <span className="heroIconsListItem heroIconsListItem-4">O</span>
         </p>
         <p className="heroLowerContainerText">
           Мы делаем уникальный и качественный продукт, где каждый получит, то в
           чем нуждается. Четыре направления услуг, которые включают в себя по
           несколько уникальных тарифов
-          <ul className="heroIconsList">
-            <li className="heroIconsListItem heroIconsListItem-5">S</li>
-            <li className="heroIconsListItem heroIconsListItem-6">P</li>
-            <li className="heroIconsListItem heroIconsListItem-7">P</li>
-          </ul>
+            <span className="heroIconsListItem heroIconsListItem-5">S</span>
+            <span className="heroIconsListItem heroIconsListItem-6">P</span>
+            <span className="heroIconsListItem heroIconsListItem-7">P</span>
         </p>
       </div>
       <div className="heroLowerRightContainer">

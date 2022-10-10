@@ -1,0 +1,82 @@
+.howWeWork {
+    background-color: #fff3f3;
+    background-image: url('../img/howWeWorkBG.png');
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: 104% -10px;
+}
+
+.howWeWorkUpperContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.howWeWorkText {
+    margin-top: 40px;
+    max-width: 30.5%;
+}
+
+.linkedNumber {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+
+    font-size: 32px;
+    font-weight: 700;
+    color: #E52D2D;
+
+    border: 5px solid #E52D2D;
+    border-radius: 50%;
+
+}
+
+.linkedNumberChain {
+    display: flex;
+    height: 6px;
+    width: 21%;
+    margin: 0 10px;
+    background-image: url('../img/palka.svg');
+}
+
+.linkerdNumbers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.howWeWorkLowerContainer {
+    margin-top: 50px;
+}
+
+.workBlockHeader {
+    margin-left: 0;
+
+    font-size: 20px;
+    text-transform: none;
+}
+
+.workBlockMain {
+    margin-bottom: 30px;
+    line-height: 1;
+    font-size: 32px;
+}
+
+.workBlocksContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.workBlock {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    width: 25%;
+}
+
+.workBlock:not(:first-child) {
+    margin-left: 63px;
+}
+

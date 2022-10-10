@@ -9,13 +9,6 @@
     align-items: center;
 }
 
-.sectionHeader {
-    margin-right: 100px;
-
-    font-size: 80px;
-    text-transform: uppercase;
-}
-
 .costGraph {
     width: 46%;
 }

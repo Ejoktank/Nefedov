@@ -45,3 +45,10 @@ a {
     height: 24px;
     margin-right: 10px;
 }
+
+.sectionHeader {
+    margin-right: 100px;
+
+    font-size: 80px;
+    text-transform: uppercase;
+}
