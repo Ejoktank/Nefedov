@@ -1,11 +1,12 @@
 import React from 'react';
 import './additionalservice.css';
 
-export function AdditionalService() {
+export function AdditionalService(props) {
   return (
     <div className="additionalService">
-      <div className="additionalServicePicture"></div>
-      <p className="additionalServiceName">Айдентика</p>
+      <div style={{bacgroundImage : "./img/src/lol.jpg"}} className="additionalServicePicture">
+      </div>
+      <p className="additionalServiceName">{props.children}</p>
     </div>
   );
 }

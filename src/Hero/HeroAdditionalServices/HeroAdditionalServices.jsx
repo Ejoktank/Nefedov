@@ -9,14 +9,14 @@ export function HeroAdditionalServices() {
       <h3 className="sectionName">
         <img src={icon} /> Дополнительные услуги</h3>
       <div className='additionalServicesContainer'>
-      <AdditionalService />
-      <AdditionalService />
-      <AdditionalService />
-      <AdditionalService />
-      <AdditionalService />
-      <AdditionalService />
-      <AdditionalService />
-      <AdditionalService />
+      <AdditionalService>Айдентика</AdditionalService>
+      <AdditionalService>Айдентика</AdditionalService>
+      <AdditionalService>Айдентика</AdditionalService>
+      <AdditionalService>Айдентика</AdditionalService>
+      <AdditionalService>Айдентика</AdditionalService>
+      <AdditionalService>Айдентика</AdditionalService>
+      <AdditionalService>Айдентика</AdditionalService>
+      <AdditionalService>Айдентика</AdditionalService>
     </div>
     </div>
   );

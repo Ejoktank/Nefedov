@@ -13,7 +13,7 @@ a {
     color: #000;
 }
 
-.App {
+.appContainer {
     margin-left: auto;
     margin-right: auto;
     max-width: 1620px;
@@ -25,7 +25,8 @@ a {
     margin-top: 40px;
     margin-bottom: 40px;
     padding: 30px 80px;
-    border-radius: 15px;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 .borad-20 {
@@ -51,4 +52,18 @@ a {
 
     font-size: 80px;
     text-transform: uppercase;
+}
+
+.footerBlocks {
+    background-color: #000;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.pos-relative {
+    position: relative;
 }

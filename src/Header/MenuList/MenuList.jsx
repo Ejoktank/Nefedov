@@ -1,24 +1,27 @@
 import React from "react";
 import "./menulist.css";
 
+const menuItems = [
+  { name : 'Портфолио', href : '' },
+  { name : 'Конфигуратор', href : '' },
+  { name : 'Основные услуги', href : '' },
+  { name : 'Статьи', href : '' },
+  { name : 'О нас', href : '' }
+];
+
 export function MenuList() {
+
+  function menuListItem(data, idx) {
+    return (
+      <li key={idx} className="menuListItem">
+        <a href={`#${data.href}`} className="menuLink">{data.name}</a>
+      </li>
+    );
+  };
+
   return (
     <ul className="menuList">
-      <li className="menuListItem">
-        <a href="#" className="menuLink">Портфолио</a>
-      </li>
-      <li className="menuListItem">
-        <a href="#" className="menuLink">Конфигуратор</a>
-      </li>
-      <li className="menuListItem">
-        <a href="#" className="menuLink">Основные услуги</a>
-      </li>
-      <li className="menuListItem">
-        <a href="#" className="menuLink">Статьи</a>
-      </li>
-      <li className="menuListItem">
-        <a href="#" className="menuLink">О нас</a>
-      </li>
+      {menuItems.map(menuListItem)}
     </ul>
   );
 }

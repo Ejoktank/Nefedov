@@ -5,6 +5,7 @@ import heroImg2 from "../../img/heroImg2.png";
 import heroImg3 from "../../img/heroImg3.png";
 
 export function HeroUpperContainer() {
+
   return (
     <div className="heroUpperContainer">
       <div className="heroUpperLeftContainer">
