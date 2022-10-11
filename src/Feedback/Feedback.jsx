@@ -16,10 +16,8 @@ export function Feedback() {
             <input className='feedbackInput' placeholder='Мобильный телефон*' type="phone" name="phone" id="phone" />
             <input className='feedbackInput' placeholder='Электронная почта' type="email" name="email" id="email" />
             <button className='submitBtn' type="submit">На месяц - 299 Р</button>
-            <label htmlFor='checkbox' className=''>
-              <input type="checkbox" name="checkbox" id="checkbox" />
-              Я принимаю условия передачи информации 
-              </label>
+            <input className='customCheckbox' type="checkbox" name="checkbox" id="checkbox" />
+            <label htmlFor='checkbox'>Я принимаю условия передачи информации</label>
           </form>
         </div>
       </div>
