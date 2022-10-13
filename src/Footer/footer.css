@@ -1,0 +1,74 @@
+footer * {
+    color: #fff;
+}
+
+.footerContainer {
+    display: flex;
+    margin-bottom: 0;
+}
+
+.footerPhone {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
+.footerSubcontainer {
+    margin-bottom: 20px;
+}
+
+.footerList {
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.fiiterListItem {
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: none;
+}
+
+.footerLeft {
+    width: 40%;
+}
+
+.footerRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.underlinedText {
+    font-size: 14px; 
+}
+
+.separator {
+    border-top: 1px solid #fff;
+}
+
+.separatorContainer {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 1px;
+}
+
+.footerUnderline {
+    margin-top: 0;
+}
+
+.footerRightLeft {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.footerRightRight {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerRightRight > * {
+    margin-bottom: 10px;
+}
